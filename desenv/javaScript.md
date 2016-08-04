@@ -35,3 +35,25 @@
 ### null
 
 * indica a ausência de valor
+
+### Objeto
+
+* é uma coleção dinâmica de chaves e valores de qualquer tipo de dado
+* é possível adicionar ou remover propriedades a qualquer momento
+
+    ````javascript
+    > var pessoa = {};
+
+    // adicionando propriedade
+    > pessoa.nome = 'Jorge';
+
+    // formas de acesso
+    > pessoa.nome
+    'Jorge'
+
+    > pessoa["nome"]
+    'Jorge'
+
+    // removendo prorpiedade
+    > delete pessoa.nome
+    ````
