@@ -1,14 +1,14 @@
 # start up project
 
-## tools
+## ferramentas
 
 * [http-server][3]: a simple zero-configuration command-line http server
 
-### bibliotecas java script
+## componentes
 
-* [Bootbox.js][1]: Bootstrap modals made easy
+* [Bootbox.js][1]: bootstrap modals made easy
 
-### bootstrap
+## interface
 
 * [Bootstrap Zero][2]
 * Start Bootstrap 
