@@ -4,7 +4,21 @@
 
 ### provider()
 
-Usa se você precisa configurar o serviço.
+Permite que você configure explicitamente o serviço.
+Para usar a função `provider()` a função passada como parâmetro deve conter uma propriedade chamada `$get`.
+A função atribuída a essa propriedade será a função executada pelo Angular para criar o serviço, que será representado pelo objeto retornado
+por esta função.
+
+````javascript
+    $provide.provider('books', function() {
+        this.$get = function() {
+            var appName = 'Book Logger';
+            return {
+                appName: appName
+            };
+        }
+    });
+````
 
 ### factory()
 
@@ -17,6 +31,8 @@ A `factory()` chama a `provider()`.
 A função passada como parâmetro é tratada como um construtor.
 
 ### value()
+
+Também é um _wrapper_ em torno da função `factory()`.
 
 ### constant()
 
