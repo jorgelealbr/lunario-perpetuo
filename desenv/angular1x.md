@@ -22,7 +22,7 @@ por esta função.
 
 ### factory()
 
-Se você não precisa configurar o serviço, use a função `factory` que é mais simples de criar o serviço.
+Se você não precisa configurar o serviço, use a função `factory()` que é mais simples de criar o serviço.
 A `factory()` chama a `provider()`.
 
 ### service()
